@@ -1,0 +1,15 @@
+table {
+  border-collapse: collapse;
+  border: 1px solid lightgray;
+}
+
+td {
+  border: 1px solid lightgray;
+  padding: 10px;
+  color: gray;
+}
+
+span {
+  color: mediumslateblue;
+}
+
