@@ -61,14 +61,14 @@ if (!$access_token) {
         echo "<b>Hi <span>$name</span>, here's your schedule:</b><br>";
         echo '<br>';
         echo '<table>';
-        echo '<tr>';
-        echo '<td style="text-align: center;"><b>Class</b></td>';
-        echo '<td style="text-align: center;"><b>Period</b></td>';
-        echo '</tr>';
+        echo   '<tr>';
+        echo     '<td style="text-align: center;"><b>Class</b></td>';
+        echo     '<td style="text-align: center;"><b>Period</b></td>';
+        echo   '</tr>';
         foreach ($sorted_sections as $class_name => $period) {
           echo '<tr>';
-          echo '<td>' . $class_name . '</td>';
-          echo '<td style="text-align: center;">' . $period . '</td>';
+          echo   '<td>' . $class_name . '</td>';
+          echo   '<td style="text-align: center;">' . $period . '</td>';
           echo '</tr>';
         }
         echo '</table>';
